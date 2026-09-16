@@ -1,0 +1,19 @@
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+   
+}
+.center {
+    text-align: center;
+    font-size: 18px;
+}
+
+.picture {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
