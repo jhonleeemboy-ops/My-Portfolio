@@ -1,38 +1,32 @@
-body {
-font-family: Arial, sans-serif;
-margin: 0;
- padding: 0;
-}
-
-.intro {
+.profile {
 min-height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
- gap: 50px;
-padding: 40px;
- box-sizing: border-box;
+gap: 50px;
 }
 
-.profile {
+.picture {
 width: 200px;
 height: 200px;
 object-fit: cover;
- border-radius: 50%;
+border-radius: 50%;
 }
 
-.intro-content {
+.profile-content {
 max-width: 600px;
 }
 
 h1 {
 font-size: 40px;
 margin-bottom: 10px;
+font-style: italic;
 }
 
 h2 {
 font-size: 24px;
 margin-bottom: 20px;
+font-style: italic;
 }
 
 p {
@@ -41,29 +35,34 @@ line-height: 1.6;
 }
 
 .tagline {
-    font-weight: bold;
-    font-style: italic;
+font-weight: bold;
+font-style: italic;
 }
 
 .learn-more {
- display: inline-block;
- margin-top: 15px;
- padding: 12px 24px;
+display: inline-block;
+margin-top: 15px;
+padding: 12px 24px;
 background-color: black;
- color: white;
- text-decoration: none;
+color: white;
+text-decoration: none;
 border-radius: 5px;
 }
 
 .learn-more:hover {
-    background-color: gray;
+background-color: gray;
 }
 
-.about {
-padding: 20px;
- margin: 20px;
+
+
+#about {
+width: 100%;
+max-width: 1000px;
+padding: 40px;
+margin: 20px auto;
 border: 1px solid black;
- border-radius: 10px;
+border-radius: 10px;
+box-sizing: border-box;
 }
 
 #about h2 {
@@ -75,12 +74,16 @@ margin-top: 25px;
 }
 
 #about p {
-line-height: 0.5;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 20px;
 }
 
 #about li {
 margin: 8px;
 }
+
+
 
 #skills {
 padding: 40px;
@@ -92,16 +95,16 @@ text-align: center;
 }
 
 .skills-container {
-display: flex;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
 gap: 20px;
 }
 
 .card {
- padding: 20px;
-margin: 10px;
+padding: 20px;
 border: 1px solid black;
- border-radius: 10px;
-width: 150px;
+border-radius: 10px;
+box-sizing: border-box;
 }
 
 .card h3 {
@@ -111,3 +114,62 @@ margin-top: 0;
 .card p {
 font-size: 16px;
 }
+
+
+
+/* @media (max-width: 600px) {
+
+    
+.profile {
+flex-direction: column;
+ padding: 20px;
+gap: 20px;
+text-align: center;
+    }
+
+.image {
+width: 150px;
+height: 150px;
+    }
+
+.intro-content {
+width: 100%;
+max-width: 100%;
+    }
+
+h1 {
+    font-size: 32px;
+    }
+
+h2 {
+    font-size: 20px;
+    }
+
+.intro-content p {
+    font-size: 16px;
+    }
+
+
+ 
+#about {
+padding: 20px;
+margin: 10px;
+    }
+
+#about p {
+font-size: 16px;
+    }
+#skills {
+padding: 20px;
+margin: 10px;
+    }
+
+.skills-container {
+grid-template-columns: 1fr;
+    }
+
+.card {
+width: 100%;
+margin: 0;
+    }
+} */
