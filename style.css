@@ -1,9 +1,9 @@
 .profile {
 min-height: 100vh;
-display: flex;
+display:grid;
 align-items: center;
 justify-content: center;
-gap: 50px;
+/* gap:50px; */
 }
 
 .picture {
@@ -11,6 +11,11 @@ width: 200px;
 height: 200px;
 object-fit: cover;
 border-radius: 50%;
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+margin-left: 43%;
+margin-top: 50px;
 }
 
 .profile-content {
@@ -83,7 +88,12 @@ margin-bottom: 20px;
 margin: 8px;
 }
 
+.interest-container{
+display:flex;
+grid-template-columns: repeat(3, 1fr);
+gap: 100px;
 
+}
 
 #skills {
 padding: 40px;
@@ -95,13 +105,13 @@ text-align: center;
 }
 
 .skills-container {
-display: grid;
+display:flex;
 grid-template-columns: repeat(3, 1fr);
-gap: 20px;
+gap:20px;
 }
 
 .card {
-padding: 20px;
+padding: 10px;
 border: 1px solid black;
 border-radius: 10px;
 box-sizing: border-box;
@@ -113,6 +123,59 @@ margin-top: 0;
 
 .card p {
 font-size: 16px;
+}
+
+#projects {
+    padding: 40px;
+    margin: 20px;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-content h3 {
+    margin-top: 0;
+}
+
+.project-content p {
+    line-height: 1.5;
+}
+
+.project-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-button:hover {
+    background-color: gray;
 }
 
 
