@@ -125,6 +125,9 @@ margin-top: 0;
 font-size: 16px;
 }
 
+
+/* Activity 4 */
+
 #projects {
     padding: 40px;
     margin: 20px;
@@ -176,6 +179,35 @@ font-size: 16px;
 
 .project-button:hover {
     background-color: gray;
+}
+
+/* Activity 5 */
+#education {
+    padding: 40px;
+    margin: 20px;
+}
+
+#education h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 
