@@ -210,6 +210,42 @@ th {
     text-align: center;
 }
 
+/* NAVIGATION MENU */
+/* Activity 6  */
+
+nav {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+}
 
 
 /* @media (max-width: 600px) {
