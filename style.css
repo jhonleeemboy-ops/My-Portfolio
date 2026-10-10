@@ -247,6 +247,58 @@ nav {
     text-align: center;
 }
 
+/* Acitivity 7 */
+/* CONTACT SECTION */
+
+#contact {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border-color: orange;
+}
+
+#contact button {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: gray;
+}
+
 
 /* @media (max-width: 600px) {
 
