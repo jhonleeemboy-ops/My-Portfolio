@@ -316,6 +316,29 @@ nav {
     background-color: gray;
 }
 
+
+/* Activity 9 - NEW: FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: orange;
+}
+
 /* ===== Activity 8 - MEDIA QUERIES ===== */
 /* CHANGED: the old queries used .intro and .intro-content, which
    don't exist in the HTML, so they did nothing. Replaced with
